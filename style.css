@@ -26,14 +26,14 @@ nav ul {
 
 nav li {
     display: inline-block;    
-    margin-inline: 1.5rem;
+    margin-inline: 1rem;
     padding: 1rem 0 0.5rem;
 } 
 
 nav li a {
     text-decoration: none;
     color: #172727;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight:bolder;
     color:#ffff;
 }
