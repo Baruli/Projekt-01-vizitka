@@ -1,3 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+*, ::after, ::before { box-sizing: inherit; 
+scroll-behavior: smooth;
+}
+
+body { 
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    color: #172727
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+}
+
+/**************** Navigation bar with links to each section *************/
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center ;
+    list-style-type: none;
+    background-color: hsl(180, 83%, 23%);
+}
+
+nav li {
+    display: inline-block;    
+    margin-inline: 2rem;
+    padding: 1rem 0 0.5rem;
+} 
+
+nav li a {
+    text-decoration: none;
+    color: #172727;
+    font-size: 1.6rem;
+    font-weight:bolder;
+    color:#ffff;
+}
+
+li a:hover,
+li a:focus {
+    text-decoration: underline;
+}
+
+
+/**************** Main *************/
+section {
+    margin-inline: 10rem;
+    padding: 1rem 2rem 2rem;
+    border-top: 2px solid lightgray;
+}
+
+p {
+    margin: 0.3em;
+}
+
+p, li {
+    max-width: 80%;
+}
+
+.job {
+    margin-bottom: 3.5rem;
+}
+
+/* Header part */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.summary {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.header {
+    padding-top: 5rem;
+}
+
+.header img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+
+.intro {
+    margin-top: 4em;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Elements to hightlight with different color */
+span {
+    color: darkcyan;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* all lists */
+li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    padding-left: 12px;
+    list-style-position: outside;
+    text-align: justify;
+}
+
+/* Contact information - the list */
+li a {
+    color:hsl(195, 100%, 26%);
+}
+li a:hover,
+li a:focus { 
+    background: rgb(177, 236, 232);
+    color: #172727
+}
+
+
+/**************** Footer *************/
+footer {
+    text-align: center;
+    background-color: hsl(180, 83%, 23%);
+    color: #ffff;
+}
+
+footer a {
+    color: bisque; 
+}
+
+footer a:visited {
+    color:bisque
+}
+
+footer a:hover,
+footer a:focus { 
+    background: bisque;
+    color: darkcyan;
+}
+
+
