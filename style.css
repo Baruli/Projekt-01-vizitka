@@ -8,7 +8,7 @@ scroll-behavior: smooth;
 
 body { 
     margin: 0 auto;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     font-family: "Roboto", "Segoe UI", Arial, sans-serif;
     color: #172727
@@ -19,21 +19,21 @@ body {
 nav ul {
     margin: 0;
     padding: 0;
-    text-align: center ;
+    text-align: center;
     list-style-type: none;
     background-color: hsl(180, 83%, 23%);
 }
 
 nav li {
     display: inline-block;    
-    margin-inline: 2rem;
+    margin-inline: 1.5rem;
     padding: 1rem 0 0.5rem;
 } 
 
 nav li a {
     text-decoration: none;
     color: #172727;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight:bolder;
     color:#ffff;
 }
@@ -46,7 +46,7 @@ li a:focus {
 
 /**************** Main *************/
 section {
-    margin-inline: 10rem;
+    margin-inline: 12rem;
     padding: 1rem 2rem 2rem;
     border-top: 2px solid lightgray;
 }
@@ -56,11 +56,21 @@ p {
 }
 
 p, li {
-    max-width: 80%;
+    max-width: 75%;
+}
+
+.first-section {
+    border: none;
+    margin-top: 3rem;
 }
 
 .job {
     margin-bottom: 3.5rem;
+}
+
+/* Setting margin for the 1st section after the navbar  */
+.techskills {
+    margin-top: 2rem;
 }
 
 /* Header part */
@@ -72,10 +82,11 @@ h1 {
 
 .summary {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .header {
+    border: none;
     padding-top: 5rem;
 }
 
@@ -97,7 +108,7 @@ h1 {
 /* Elements to hightlight with different color */
 span {
     color: darkcyan;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -126,6 +137,11 @@ footer {
     text-align: center;
     background-color: hsl(180, 83%, 23%);
     color: #ffff;
+    height: 5rem;
+    padding: 0.5rem 0;
+}
+footer p {
+    max-width: 100%;
 }
 
 footer a {
